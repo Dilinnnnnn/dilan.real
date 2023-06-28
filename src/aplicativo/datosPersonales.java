@@ -1,3 +1,5 @@
+package aplicativo;
+
 public class datosPersonales {
     public static final String CEDULA = "1750741934";
     public static final String CORREO = "dilan.real@epn.edu.ec";
@@ -7,9 +9,9 @@ public class datosPersonales {
         String drnombreConvertido = drconvertirNombre();
         String drcorreoConvertido = drconvertirCorreo();
 
-        System.out.println("Cédula: " + CEDULA);
-        System.out.println("Nombre: " + drnombreConvertido);
-        System.out.println("Correo: " + drcorreoConvertido);
+        System.out.println("\nCédula: " + CEDULA);
+        System.out.println("\nNombre: " + drnombreConvertido);
+        System.out.println("\nCorreo: " + drcorreoConvertido);
     }
 
     public static String drconvertirNombre() {
