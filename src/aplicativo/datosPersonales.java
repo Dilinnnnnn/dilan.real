@@ -9,9 +9,9 @@ public class datosPersonales {
         String drnombreConvertido = drconvertirNombre();
         String drcorreoConvertido = drconvertirCorreo();
 
-        System.out.println("\nCédula: " + CEDULA);
-        System.out.println("\nNombre: " + drnombreConvertido);
-        System.out.println("\nCorreo: " + drcorreoConvertido);
+        System.out.println("\n \033[0;31m Cédula: " + CEDULA);
+        System.out.println("\n Nombre: " + drnombreConvertido);
+        System.out.println("\n Correo: " + drcorreoConvertido);
     }
 
     public static String drconvertirNombre() {

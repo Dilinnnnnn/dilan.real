@@ -14,14 +14,16 @@ public class drLogin {
         } else {
             System.out.println("\n:: Error de autenticacion, usuario y contraseña incorrectas");
             System.out.println("gracias ");
+            System.exit(0);
         }
+
     }
 
     private static boolean drIngreso() {
         // Scanner scan = new Scanner(System.in);
 
         for (int intentos = 1; intentos <= INTENTOSMAXIMOS; intentos++) {
-            System.out.print("\n Usuario: ");
+            System.out.print("\n \033[0;36m Usuario: ");
             String usuario = App.scan.nextLine();
             System.out.print("\n Contraseña: ");
             String clave = App.scan.nextLine();

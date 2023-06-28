@@ -1,5 +1,7 @@
+import drUtility.drUtility;
+
 public class MenuCargaHoraria {
-    private static String temaAsignado = "<<Profesores>>";
+    private static String temaAsignado = "\033[0;33m<<Profesores>>";
     private static String usuarioLogeado = "PROFE";
 
     public static void menu(String[] args) {
@@ -9,25 +11,43 @@ public class MenuCargaHoraria {
         do {
             drmostrarInicio();
             drmostrarOpciones();
-            System.out.print("Ingrese su opción: ");
+            System.out.print("\n [+] Ingrese su opción: ");
             opcion = App.scan.nextInt();
+            drUtility.drclear();
 
             switch (opcion) {
                 case 1:
                     visualizarProfesor();
-                    System.out.println("\n - 202110105-CHUNCHO JIMENEZ ANGEL DAVID");
+                    System.out.println("\n \033[0;35m - 202110105-CHUNCHO JIMENEZ ANGEL DAVID");
                     System.out.println("\n - 202111083-HIDALGO CRUZ PABLO ESTEBAN");
-                    System.out.println("\n - 202120757-ALEMAN OSORIO CARLOS ALEJANDRO");
+                    System.out.println("\n - 202120757-ALEMAN OSORIO CARLOS ALEJANDRO \n");
+                    drUtility.presioneTeclaContinuar();
+                    drUtility.drclear();
 
                     break;
                 case 2:
                     visualizarTitulo();
+                    System.out.println("\n - ICCD323-GRLSW SISTEMAS OPERATIVOS SISTEMAS OPERATIVOS");
+                    System.out.println("\n - ICCD343-GR1SW CONTACTO CON LA M\u00DASICA");
+                    System.out.println("\n - ICCD343-GR1SW ARQUITECTURA DE COMPUTADORES");
+                    System.out.println("\n  - MATD223-GR4SW PROBABILIDAD Y ESTADISTiCA BASICAS");
+                    System.out.println("\n - CSHD3BL-A3 FUNDAMENTOS DE REDES Y CONECTIVIDAD");
+                    System.out.println("\n - ICCD353-GR1SW FUNDAMENTOS DE REDES Y CONECTIVIDAD \n");
+
+                    drUtility.presioneTeclaContinuar();
+                    drUtility.drclear();
                     break;
                 case 3:
                     visualizarHorario();
+                    drUtility.presioneTeclaContinuar();
+                    drUtility.drclear();
+
                     break;
                 case 4:
                     visualizarHorarioTitulo();
+                    drUtility.presioneTeclaContinuar();
+                    drUtility.drclear();
+
                     break;
                 case 0:
                     System.out.println("Regresa pronto " + usuarioLogeado);

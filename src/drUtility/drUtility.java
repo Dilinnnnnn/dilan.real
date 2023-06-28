@@ -51,4 +51,22 @@ public class drUtility {
         }
     }
 
+    public static void drpause(int milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    static public void presioneTeclaContinuar() {
+        String seguir;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Press Enter key to continue...");
+        try {
+            seguir = teclado.nextLine();
+        } catch (Exception e) {
+        }
+    }
 }

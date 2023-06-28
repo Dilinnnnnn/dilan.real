@@ -105,4 +105,17 @@
     <ownedOperation xmi:id="_KkfVgBXsEe6-u4Hs2e3Nrw" name="showHorario"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_jhC5sBXsEe6-u4Hs2e3Nrw" memberEnd="_jhDgwBXsEe6-u4Hs2e3Nrw _jhDgwxXsEe6-u4Hs2e3Nrw"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AAxuEBYLEe6Z_NmoEy5tVA" name="aplicativo"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C7HYQBYLEe6Z_NmoEy5tVA" name="datosPersonales">
+    <ownedAttribute xmi:id="_Noe54BYLEe6Z_NmoEy5tVA" name="convertirNombre" type="_xDmnIBXpEe6-u4Hs2e3Nrw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NohWIBYLEe6Z_NmoEy5tVA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NohWIRYLEe6Z_NmoEy5tVA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PMxXIBYLEe6Z_NmoEy5tVA" name="convertirCorreo" type="_xDmnIBXpEe6-u4Hs2e3Nrw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PMxXIRYLEe6Z_NmoEy5tVA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PMx-MBYLEe6Z_NmoEy5tVA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FvEtoBYLEe6Z_NmoEy5tVA" name="Horarios"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VmiDoBYNEe6Z_NmoEy5tVA" name="drLogin"/>
 </uml:Model>

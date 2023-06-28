@@ -70,4 +70,24 @@
   <elements xsi:type="notation:Edge">
     <semanticElement elementId="_scsmEBXsEe6-u4Hs2e3Nrw"/>
   </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_AAxuEBYLEe6Z_NmoEy5tVA"/>
+    <position x="1980.0" y="650.0"/>
+    <size width="197.1824188232422" height="53.39999961853027"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_C7HYQBYLEe6Z_NmoEy5tVA"/>
+    <position x="1950.0" y="770.0"/>
+    <size width="310.68671560287476" height="129.19999885559082"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_FvEtoBYLEe6Z_NmoEy5tVA"/>
+    <position x="180.0" y="130.0"/>
+    <size width="160.0" height="53.39999961853027"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_VmiDoBYNEe6Z_NmoEy5tVA"/>
+    <position x="2030.0" y="970.0"/>
+    <size width="160.0" height="52.39999961853027"/>
+  </elements>
 </unotation:UmlDiagram>

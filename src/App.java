@@ -5,16 +5,21 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import aplicativo.datosPersonales;
+import drUtility.drUtility;
 
 public class App {
     public static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) throws Exception {
 
+        drUtility.drclear();
         datosPersonales.main(args);
-        Thread.sleep(100);
+        Thread.sleep(2000);
         drLogin.ingreso(args);
+        Thread.sleep(2000);
+        drUtility.drclear();
         MenuCargaHoraria.menu(args);
+        muestraContenido("src\\Horarios\\a1.csv");
 
     }
 
@@ -28,5 +33,3 @@ public class App {
         b.close();
     }
 }
-
-// is directori
